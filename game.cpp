@@ -1,8 +1,10 @@
 #include <iostream>
+#include <ctime>
 using namespace std;
 
 int main()
 {
+    srand(time(NULL));
     int num[4]={0};
      bool isin=false;
     for(int i=0;i<4;i++)
